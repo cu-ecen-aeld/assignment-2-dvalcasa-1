@@ -12,4 +12,4 @@ writer: writer.o
 	$(CC) -o $@ -c $< $(CFLAGS)
 	
 clean:
-	rm -rf *.o
+	rm -rf *.o $(EXEC)
